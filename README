@@ -1,0 +1,23 @@
+# ⚔️ Advanced C++ RPG Battle System
+
+A professional, modular console-based RPG engine implementing core **OOP** principles and clean software architecture.
+
+## 🛠 Features
+- **Modular Design:** 14+ separate files (.h / .cpp) for clean separation of concerns.
+- **Dynamic Combat:** Polymorphic special attacks for different hero classes.
+- **Inventory Engine:** Real-time item management (Weapons, Potions, Shields).
+- **Tactical Defense:** Custom Shield class integration for damage mitigation.
+
+## 🏗 System Architecture (UML)
+The system is built on a robust hierarchy:
+- `Character` (Abstract Base)
+  - `Warrior`, `Mage`, `Archer` (Derived Classes)
+- `Item` (Interface)
+  - `Weapon`, `Potion`, `Shield` (Concrete Implementations)
+- `Inventory` (Composition Manager)
+
+## 🚀 How to Run
+1. Clone the repo.
+2. Navigate to the `/Codes` directory.
+3. Compile using: `g++ *.cpp -o RPG_Game`
+4. Run: `./RPG_Game`
